@@ -1,9 +1,0 @@
-.lead__images{
-  position: relative;
-  display: grid;
-  justify-items: center;
-  justify-content: center;
-  margin: 0 auto 0;
-  width: 100%;
-  max-width: 986px;
-}

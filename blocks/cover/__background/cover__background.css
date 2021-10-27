@@ -1,12 +1,7 @@
 .cover__background {
+  width: 100%;
   text-decoration: none;
-  background-image: url(../../../images/cover-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  padding-top: 62.5%;
   display: flex;
-  position: relative;
   justify-content: center;
 }
 
@@ -20,4 +15,9 @@
   z-index: 3;
   top: 0%;
   opacity: .3;
+  transition: ease-in-out .4s;
+}
+
+.cover__background:hover::before {
+  opacity: .8;
 }
