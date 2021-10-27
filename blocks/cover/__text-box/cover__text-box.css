@@ -1,6 +1,6 @@
 .cover__text-box {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
+  max-width: 560px;
+  align-items: center;
 }
