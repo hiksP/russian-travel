@@ -3,7 +3,7 @@
   margin: 0 0 8px 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place__paragraph-box {
     max-width: 288px;
     margin: 0 auto ;

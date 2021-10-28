@@ -3,5 +3,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1184px;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    padding: 0 0 0 16px;
+    max-width: calc(100% - 16px);
+  }
 }
