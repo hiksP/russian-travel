@@ -1,23 +1,4 @@
-@media screen and (max-width: 1280px) {
-  .page-size {
-    max-width: 1184px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .page-size {
-    max-width: 928px;
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .page-size {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .page-size {
-    max-width: 320px;
-  }
+.page-size {
+  max-width: 1184px;
+  margin: 0 auto;
 }
