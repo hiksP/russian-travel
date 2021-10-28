@@ -2,3 +2,10 @@
   padding: 0;
   margin: 0 0 8px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .place__paragraph-box {
+    max-width: 288px;
+    margin: 0 auto ;
+  }
+}
