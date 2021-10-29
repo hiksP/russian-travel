@@ -2,3 +2,15 @@
   margin: 0 auto 92px;
   width: 100%;
 }
+
+@media screen and (max-width: 769px) {
+  .cover {
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
+}
