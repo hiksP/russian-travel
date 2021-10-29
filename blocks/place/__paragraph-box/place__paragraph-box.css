@@ -6,6 +6,6 @@
 @media screen and (max-width: 426px) {
   .place__paragraph-box {
     max-width: 288px;
-    margin: 0 auto ;
+    margin: 0 auto;
   }
 }
