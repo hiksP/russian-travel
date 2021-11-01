@@ -3,13 +3,9 @@
   margin: 0 0 8px 0;
 }
 
-.place__paragraph-box:last-of-type {
-  margin: 0;
-}
-
 @media screen and (max-width: 426px) {
   .place__paragraph-box {
+    margin: 0 0 0 16px;
     max-width: 288px;
-    margin: 0 auto;
   }
 }
